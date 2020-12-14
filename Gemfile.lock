@@ -1,9 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    cgi (0.1.0)
     coderay (1.1.0)
+    date (3.0.0)
+    delegate (0.1.0)
+    did_you_mean (1.4.0)
     diff-lcs (1.2.5)
+    etc (1.1.0)
+    executable-hooks (1.6.0)
+    fileutils (1.4.1)
+    forwardable (1.3.1)
+    ipaddr (1.2.2)
     method_source (0.8.2)
+    openssl (2.1.2)
+      ipaddr
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -22,13 +33,33 @@ GEM
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
     slop (3.6.0)
+    stringio (0.1.0)
+    strscan (1.0.3)
+    timeout (0.1.0)
+    uri (0.10.0)
+    zlib (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  cgi
+  date
+  delegate
+  did_you_mean
+  etc
+  executable-hooks
+  fileutils
+  forwardable
+  ipaddr
+  openssl
   pry
   rspec
+  stringio
+  strscan
+  timeout
+  uri
+  zlib
 
 BUNDLED WITH
    1.10.3
